@@ -1,8 +1,27 @@
 aid: experiential-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/experiential-labs.png
 name: Experiential Labs
-description: Experiential Labs is a company surfaced as a portfolio company of y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Experiential Labs is an applied AI research laboratory (Y Combinator Summer
+  2026, San Francisco) building world models that let AI agents simulate reality with
+  high fidelity. Founded by Kion Fallah (former staff research scientist at Waabi)
+  and Silen Naihin (AutoGPT and agent-benchmark contributor, co-founder of Stackwise),
+  the company adapts techniques from autonomous-vehicle development to reconstruct
+  environments at high accuracy and pursue recursive self-improvement and continual
+  learning across domains. Its public work is open source on GitHub, including the
+  world-model-harness (world-model-as-a-harness for simulating AI agent environments),
+  OpenCLaaS (Continual Learning as a Service), and autoresearch-distillation. The
+  company does not yet publish a public API, developer portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/experiential-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,32 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- World Models
+- AI Agents
+- Simulation
+- Continual Learning
+- Infrastructure
+- Research
 apis: []
+common:
+- type: DomainSecurity
+  url: security/experiential-labs-domain-security.yml
+- type: Website
+  url: https://experientiallabs.ai
+- type: GitHubOrganization
+  url: https://github.com/experientiallabs
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
