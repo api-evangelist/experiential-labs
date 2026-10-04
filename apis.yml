@@ -46,7 +46,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - World Models
 - AI Agents
 - Simulation
@@ -63,6 +63,7 @@ tags_raw:
 - Continual Learning
 - Infrastructure
 - Research
+- Machine-Learning
 apis: []
 common:
 - type: DomainSecurity
