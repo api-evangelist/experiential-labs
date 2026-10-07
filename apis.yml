@@ -66,6 +66,10 @@ tags_raw:
 - Machine-Learning
 apis: []
 common:
+- type: Pricing
+  url: https://www.experientiallabs.ai/pricing
+- type: Plans
+  url: plans/experiential-labs-plans-pricing.yml
 - url: https://www.experientiallabs.ai/blog
   type: Blog
 - type: DomainSecurity
