@@ -1,0 +1,52 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.experientiallabs.ai/pricing
+sources:
+- https://www.experientiallabs.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: per-call
+delivery:
+  delivery: open-core
+  method: page
+  read: '2026-10-07'
+  evidence: The gateway is open source and free to self-host.
+  free_edition: Open source core
+  managed_tier: Pro
+published: true
+note: Credit-based gateway pricing; plans priced by monthly spend bands ($20–$199 Pro, $200–$1,999 Max,
+  $2,000+ Ultra) at flat 1¢ per credit, 0% markup on routed tokens. Gateway stated as open source and
+  free to self-host; no licence name given.
+plan_count: 3
+currency: USD
+plans:
+- name: Free
+  price_text: $0 per month
+  price: 0
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 500 credits a month once you verify a card (a one-time $1 charge, added to your balance)
+  overage: Route on credits at each provider's list price with nothing on top
+- name: Pro
+  price_text: $ 20 per month
+  price: 20
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 2,000 credits / mo (slider up to 1,000,000 credits / mo); Tier 2 limits
+  overage: Flat 1¢ per credit, 0% token markup; top-ups anytime
+- name: Enterprise
+  price_text: Custom scoped with your team
+  period: none
+  included_quota: Committed credits at the lowest rate, SSO, private networking, SOC 1
+rate_limit_statements:
+- 'Free Tier 1 : 240 requests/min, 4M tokens/min'
+- 'Pro Tier 2 : 1,500 requests/min, 25M tokens/min'
+- 'Max Tier 3 : 6,000 requests/min, 100M tokens/min'
+- 'Ultra Tier 4 : 10,000 requests/min, 150M tokens/min'
+- Need more than Ultra? Tier 5 is by request.
